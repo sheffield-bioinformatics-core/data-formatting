@@ -2,6 +2,8 @@ img{
     border: 0 !important;
     box-shadow: none !important;
     background: none !important;
+    max-width: 100% !important;
+    max-height: 100% !important;
 }
 
 .requirements li {
