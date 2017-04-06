@@ -61,7 +61,9 @@ Good metagenomics datasets?
 
 ----
 
-### Extraction form EBI Metagenomics
+### Extraction from EBI Metagenomics
+
+![Dataset extraction from EBI Metagenomics](images/possible_dataset_extraction.png)
 
 ---
 
@@ -69,12 +71,9 @@ Good metagenomics datasets?
 
 ----
 
-### Metagenomics assembly?
+### Why is metagenome assembly so hard?
 
-
-----
-
-### Metagenomics assemblers
+![Metagenome assembly](images/metagenome_assembly.png)
 
 ----
 
@@ -85,23 +84,37 @@ Name | Type | First release | Last update
 
 ----
 
-### Benchmarking of metagenomics assemblers?
+### Benchmarking of metagenomics assemblers
 
 ----
 
 ### Idea for benchmarking
+
+![Benchmarking scheme](images/benchmarking_scheme.png)
+
+----
+
+![Benchmarking scheme step 1: extraction of representative datasets](images/benchmarking_scheme_step1.png)
 
 ----
 
 ### Extraction of representative datasets
 
----- 
-
-### Idea for benchmarking
+![Extraction of representative datasets](images/representative_dataset_extraction.png)
 
 ----
 
-### Test of the assemblers
+![Benchmarking scheme step 2: tests of assemblers](images/benchmarking_scheme_step2.png)
+
+----
+
+### Test of assemblers
+
+![Assembler test scheme](images/assembler_test.png)
+
+----
+
+![Benchmarking scheme step 3: comparison of assemblers](images/benchmarking_scheme_step3.png)
 
 ----
 
