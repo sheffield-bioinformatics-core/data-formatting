@@ -91,6 +91,7 @@ Name | Version | First release | Last update
 [Omega](http://omega.omicsbio.org/) | | 2014 | ? - Replaced by DISCO
 [DISCO](http://disco.omicsbio.org/) | 1.0 | 2016 | 2017
 [InteMAP](http://cqb.pku.edu.cn/ZhuLab/InteMAP/index.html) | 1.0 | 2015 | 2015
+[MetAMOS](http://metamos.readthedocs.io/en/) | 1.5rc3 | 2011 | 2016
 
 ----
 
