@@ -161,8 +161,8 @@ Name | Version | First release | Last update
 
 - Run all assemblers on the representative datasets
 - Compare the assembler statistics
-- Select the best one for every dataset
-- Run the selected assemblers on the interesting datasets
+- Select the more generalist assembler
+- Run the selected assemblers on every possible dataset
 - (Extract the CRISPR subtypes)
 
 ---
