@@ -11,7 +11,7 @@ The easiest way to navigate this slide deck is by hitting `[space]`on your keybo
 ### Playing with metagenomics data,<br>databases and assemblers
 
 
-*image*
+![](images/maxresdefault.jpg) <!-- .element height="50%" width="50%" -->
 
 Bérénice Batut
 
