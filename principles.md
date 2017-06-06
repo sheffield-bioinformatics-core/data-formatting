@@ -1,11 +1,3 @@
----
-title: "Introduction and Principles"
-author: "Mark Dunning"
-date: '`r format(Sys.time(), "Last modified: %d %b %Y")`'
-output: 
-  slidy_presentation: 
-    keep_md: yes
----
 
 # Why is this course important?
 
