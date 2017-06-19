@@ -252,7 +252,9 @@ Windows
 
 - Tab delimited
     + , or ; separated
+    
 ![](images/tab.png)
+
 - Such as .csv or .txt
 
 ---
