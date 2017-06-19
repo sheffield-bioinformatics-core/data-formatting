@@ -87,3 +87,67 @@ Addition unwanted characters
     + File names
 - Unique and consistent variable names
     + Multiple tables
+    
+---
+
+# 3rd Rule
+
+## Missing values = NA
+
+---
+
+# Blank spaces
+
+- Careful!!!
+
+- Blank cell ≠ space
+- “Male” ≠ “ Male “
+- Last line: “ “ 
+    + These can be a headache later on!
+
+---
+
+# Example 2
+
+| Patient ID | Date       | Value |
+|------------|------------|-------|
+| 1          | 2015-06-14 | 213   |
+| 2          |            | 76.5  |
+| 3          | 2015-06-18 | 32    |
+| 4          |            | 120.3 |
+| 5          |            | 109   |
+| 6          | 2015-06-20 |       |
+| 7          |            | 143   |
+
+---
+
+# Example 2
+
+- It is tempting to make the table look cleaner by not repeating some values
+- Fill in all cells!
+    + Problems when sorting
+- Empty cell:
+    + Missing value?
+    + Value meant to be repeated multiple times?
+- Make sure it’s clear that the data is missing and not unintentionally left blank
+
+---
+
+# Example 2 Corrected
+
+| Patient ID | Date       | Value |
+|------------|------------|-------|
+| 1          | 2015-06-14 | 213   |
+| 2          | 2015-06-14 | 76.5  |
+| 3          | 2015-06-18 | 32    |
+| 4          | 2015-06-18 | 120.3 |
+| 5          | 2015-06-18 | 109   |
+| 6          | 2015-06-20 |       |
+| 7          | 2015-06-20 | 143   |
+
+---
+
+# Rule 4
+
+## Make it rectangle
+
