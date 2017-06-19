@@ -48,7 +48,7 @@ img{
 }
 
 .reveal .slides {
-    font-size: 2.52em;
+    font-size: 1.0em;
 }
 
 .footnote {
@@ -62,5 +62,5 @@ img{
     font-size: 0.7em;
 }
 
-.reveal h1 { font-size: 2.5em; } 
+.reveal h1 { font-size: 1.5em; } 
 
