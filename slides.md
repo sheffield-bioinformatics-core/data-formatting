@@ -2,6 +2,66 @@
 
 ---
 
+
+# Reproducible Research
+
+- As modern researchers, we should care about ***reproducible research***. 
+- At some point in the future, someone, somewhere, might want to repeat your analysis for themselves or re-use your data. 
+    + which will most likely be ***you!***
+- Assuming that you'll be able to remember all the steps involved is dangerous, so making sure that everything is well-documented is key. 
+- The documentation involves not only the methods used, but the files used as input and any transformations performed on them. 
+
+---
+
+# Five selfish reasons
+
+- Florian Markowetz has a great talk on why we should work reproducibly 
+- There is a [Genome Biology paper](http://genomebiology.biomedcentral.com/articles/10.1186/s13059-015-0850-7) that you should read.
+
+![](images/selfish-reasons.png)
+
+---
+
+# A famous example
+- Probably the most (in)famous example of failure to reproduce a study, which actually *put people's lives at risk* and [rallied statisticians into action](http://www.nytimes.com/2011/07/08/health/research/08genes.html)
+- Keith Baggerly's lecture on the scandal is a ***must-see***.
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/7gYIs7uYbMo" frameborder="0" allowfullscreen></iframe>
+
+
+---
+
+# But tools like R have been around for years; why is this still an issue?
+
+- R is only part of the solution
+- Say you use an R script to generate a list of interesting genes and come to publish
+    + which set of samples was used....the one with that dodgy sample removed
+    + didn't you change the version of the software and re-run it?
+    + what filters did you apply afterwards
+- Need complete control over the files and data associated with your project
+
+---
+
+# Barriers to learning R, Python etc
+
+- Hopefully you will take the opportunity to learn a course to learn a language such as [R](http://cambiotraining.github.io/r-intro/) or [Python](http://pycam.github.io/) for your data analysis. 
+- From experience, the biggest hurdle that newcomers to these languages face itrying to read and analyse your own data
+- Often not because you have not understood the course materials....
+- ....but because the data have been managled into a form that the computer cannot process. 
+- there's a danger of becoming de-motivated and resorting back to whatever software you were using before.
+
+---
+
+# Are spreadsheets programs like Excel evil?
+
+- ....Not neccesarily.
+- Often much more convenient to eye-ball a spreadsheet and get an overall impression of your data. 
+- But they have *limitations* making them not ideal for large-scale analyses. 
+- Doing things by-hand only invites you to make copy-and-paste errors etc
+
+
+---
+
 # Data
 
 - Numbers, names, dates, …
@@ -10,6 +70,14 @@
 - Popular file formats:  `.txt`, `.csv`, `.xls`
 
 ---
+
+# Rule 1
+
+![](http://cdn.inquisitr.com/wp-content/uploads/2012/08/jesus-christ-fresco.gif)
+[http://www.inquisitr.com/309687/jesus-painting-restoration-goes-wrong-well-intentioned-old-lady-destroys-100-year-old-fresco/](http://www.inquisitr.com/309687/jesus-painting-restoration-goes-wrong-well-intentioned-old-lady-destroys-100-year-old-fresco/)
+
+---
+
 
 # 1st Rule
 
