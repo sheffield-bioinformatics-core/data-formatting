@@ -108,11 +108,11 @@ Addition unwanted characters
 
 # Rule 2
 
-![](images/female.png
+![](images/female.png)
 
 ---
 
-# 2nd Rule - Maintain consistency
+# Rule 2 - Maintain consistency
 
 ---
 
@@ -164,7 +164,7 @@ Addition unwanted characters
     
 ---
 
-# 3rd Rule
+# Rule 3
 
 ## Missing values = NA
 
