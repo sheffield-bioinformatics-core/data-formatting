@@ -5,7 +5,6 @@
 
 # Reproducible Research
 
-- As modern researchers, we should care about ***reproducible research***. 
 - At some point in the future, someone, somewhere, might want to repeat your analysis for themselves or re-use your data. 
     + which will most likely be ***you!***
 - Assuming that you'll be able to remember all the steps involved is dangerous, so making sure that everything is well-documented is key. 
@@ -44,8 +43,7 @@
 
 # Barriers to learning R, Python etc
 
-- Hopefully you will take the opportunity to learn a course to learn a language such as [R](http://cambiotraining.github.io/r-intro/) or [Python](http://pycam.github.io/) for your data analysis. 
-- From experience, the biggest hurdle that newcomers to these languages face is trying to read and analyse your own data
+- From experience, the biggest hurdle that newbies face is trying to read and analyse your own data
 - Often not because you have not understood the course materials....
 - ....but because the data have been managled into a form that the computer cannot process. 
 - there's a danger of becoming de-motivated and resorting back to whatever software you were using before.
