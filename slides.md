@@ -45,7 +45,7 @@
 # Barriers to learning R, Python etc
 
 - Hopefully you will take the opportunity to learn a course to learn a language such as [R](http://cambiotraining.github.io/r-intro/) or [Python](http://pycam.github.io/) for your data analysis. 
-- From experience, the biggest hurdle that newcomers to these languages face itrying to read and analyse your own data
+- From experience, the biggest hurdle that newcomers to these languages face is trying to read and analyse your own data
 - Often not because you have not understood the course materials....
 - ....but because the data have been managled into a form that the computer cannot process. 
 - there's a danger of becoming de-motivated and resorting back to whatever software you were using before.
@@ -79,7 +79,7 @@
 ---
 
 
-# 1st Rule
+# Rule 1
 
 - Always, always **RAW** data
 - NOT 
@@ -90,7 +90,7 @@
 
 ---
 
-# 1st Rule - Why?
+# Rule 1 - Why?
 
 - Maintain consistency
     + Data format
@@ -103,6 +103,12 @@ Addition unwanted characters
 - Reduce machine errors
     + Cell formats
     + Save file with a different extension
+
+---
+
+# Rule 2
+
+![](images/female.png
 
 ---
 
