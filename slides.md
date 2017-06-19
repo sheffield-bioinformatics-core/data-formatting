@@ -151,3 +151,108 @@ Addition unwanted characters
 
 ## Make it rectangle
 
+---
+
+# Example 3
+
+![](images/irregular.png)
+
+---
+
+# Example 3 Corrected
+
+![](images/irregular.png)
+
+---
+
+# More
+
+- Don’t put too much information in one cell
+    + 1 cell = 1 piece of information
+- Don’t include units such as "30 g" → "g" in the column name
+    + http://unitsofmeasure.org/ucum.html 
+- Write notes in a separate column or data dictionary or metadata 
+    + "0 (below threshold)"
+- Avoid using "," or ";" or tab
+- Do not manually modify or copy values
+
+---
+
+# More
+
+- NO calculations
+- NO font colours
+- NO highlighting
+
+Computer doesn’t recognize it!
+
+---
+
+# Good versus Bad Names
+
+| Good Name | Alternative Name | Bad Name                |
+|-----------|------------------|-------------------------|
+| MaxTemp   | max_temp         | Maximum Temperature (C) |
+| Quantity  | Quantity_mg      | Quamg                   |
+| Sex       |                  | M/F                     |
+| Weight    | Weight_kg        | w                       |
+
+---
+
+# Write Protection
+
+Mac 
+
+- Right click on the file in Finder
+- Select “Get Info”
+- Sharing and permission
+- Priviledge
+- Read only
+
+---
+
+# Write Protection
+
+Windows
+
+- Right click on the file in windows explorer
+- Properties
+- General tab
+- Attributes
+- Select the box for “read only” 
+
+---
+
+# Data Validation
+
+- Excel data validation feature
+- Select a column
+    + In the menu bar, choose “Data”
+    + Validation
+- Integer or decimal number
+- Range
+- List of possible values
+- Limited length text
+
+---
+
+# Be careful
+
+- When identifiers are long integers
+    + 1000000 = 1e06
+- Do not fill blank cells with 0s
+    + 0s are data!
+- [Excel can convert gene names to dates](https://genomebiology.biomedcentral.com/articles/10.1186/s13059-016-1044-70)
+    + SEPT2 (Septin 2) → ‘2-Sep’
+    + MARCH1 (Membrane-Associated Ring Finger (C3HC4) 1, E3 Ubiquitin Protein Ligase) → ‘1-Mar’
+
+---
+    
+# How to save
+
+- Tab delimited
+    + , or ; separated
+![](images/tab.png)
+- Such as .csv or .txt
+
+---
