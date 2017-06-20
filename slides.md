@@ -133,9 +133,10 @@ Addition unwanted characters
 - Consistency: F, female, f, fem, 2, …
 - Single common format for all dates: YYYYMMDD, YYYY-MM-DD
     + http://www.iso.org/iso/home/standards/iso8601.htm
-- Consistency about missing values
-    + NA (not available), NULL,     , ...
-
+- You can introduce inconsistencies without realising it
+    + blank spaces (whitespace) at the end of text
+    + "Male " is not the same as "Male"
+    
 ---
 
 # Example 1 - corrected
@@ -164,22 +165,25 @@ Addition unwanted characters
 
 # Rule 3
 
-## Missing values = NA
+![](images/zeros-are-data.png)
 
 ---
 
-# Blank spaces
+# Rule 3 - Don't use 0 to mean missing
 
-- Careful!!!
-
-- Blank cell ≠ space
-- “Male” ≠ “ Male “
-- Last line: “ “ 
-    + These can be a headache later on!
+- Zero values are data!
+    + Sometimes extreme values such as 999 are used, which are obviously data too
+    + What if we wanted to calculate the average?
+- `NA` is Ok, but what is NA is a valid category in your data?
+    + R will recognise `NA` as a missing value and can ignore it in calculations
+    + you can define what text is used to represent missing (NULL, None,"-")
+- Safest to leave the cell *empty*
+    + but you need to be careful with blank spaces
 
 ---
 
-# Example 2
+# Rule 4
+
 
 | Patient ID | Date       | Value |
 |------------|------------|-------|
@@ -193,7 +197,14 @@ Addition unwanted characters
 
 ---
 
-# Example 2
+
+# Rule 4 
+
+## Fill in all the cells
+
+---
+
+# Rule 4
 
 - It is tempting to make the table look cleaner by not repeating some values
 - Fill in all cells!
@@ -219,17 +230,20 @@ Addition unwanted characters
 
 ---
 
-# Rule 4
-
-## Make it rectangle
-
----
-
-# Example 3
+# Rule 5
 
 ![](images/irregular.png)
 
 ---
+
+# Rule 5
+
+## Make it rectangle
+
+- The computer expects a very rigid shape of data with rows and columns
+
+---
+
 
 # Example 3 Corrected
 
@@ -308,25 +322,22 @@ Windows
 
 ---
 
-# Be careful
+# "Helpful" features in Excel
 
 - When identifiers are long integers
     + 1000000 = 1e06
-- Do not fill blank cells with 0s
-    + 0s are data!
+    + [Issue with Illumina microaray chip IDs](https://support.illumina.com/bulletins/2016/10/important-information-about-using-digit-beadchip-barcodes-in-genomestudio-sample-sheets.html)
 - [Excel can convert gene names to dates](https://genomebiology.biomedcentral.com/articles/10.1186/s13059-016-1044-70)
     + SEPT2 (Septin 2) → ‘2-Sep’
     + MARCH1 (Membrane-Associated Ring Finger (C3HC4) 1, E3 Ubiquitin Protein Ligase) → ‘1-Mar’
 
 ---
-    
+
 # How to save
 
+- Plain text format is preferable
 - Tab delimited
     + , or ; separated
-    
-![](images/tab.png)
-
 - Such as .csv or .txt
 
 ---
