@@ -72,6 +72,7 @@
 # Rule 1
 
 ![](http://cdn.inquisitr.com/wp-content/uploads/2012/08/jesus-christ-fresco.gif)
+
 [http://www.inquisitr.com/309687/jesus-painting-restoration-goes-wrong-well-intentioned-old-lady-destroys-100-year-old-fresco/](http://www.inquisitr.com/309687/jesus-painting-restoration-goes-wrong-well-intentioned-old-lady-destroys-100-year-old-fresco/)
 
 ---
