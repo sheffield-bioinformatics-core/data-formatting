@@ -36,7 +36,6 @@
 - Say you use an R script to generate a list of interesting genes and come to publish
     + which set of samples was used....the one with that dodgy sample removed
     + didn't you change the version of the software and re-run it?
-    + what filters did you apply afterwards
 - Need complete control over the files and data associated with your project
 
 ---
@@ -57,17 +56,8 @@
 - But they have *limitations* making them not ideal for large-scale analyses. 
 - Doing things by-hand only invites you to make copy-and-paste errors etc
 
-
 ---
 
-# Data
-
-- Numbers, names, dates, …
-- Graphs, images, …
-- Organised in tables,  list, ...
-- Popular file formats:  `.txt`, `.csv`, `.xls`
-
----
 
 # Rule 1
 
@@ -91,18 +81,16 @@
 
 # Rule 1 - Why?
 
-- Maintain consistency
-    + Data format
-    + Codes (M/F)
-    + Separator , ; \t
 - Reduce human errors
     + Copy / Paste / Cut
     + Deletion
-Addition unwanted characters
 - Reduce machine errors
     + Cell formats
     + Save file with a different extension
-
+- Ask your Bioinformatician / Statistician what form they would like the data in
+    + response will probably as "raw" as possible
+    + i.e. before it has been touched by human hand
+    
 ---
 
 # Rule 2
@@ -117,15 +105,15 @@ Addition unwanted characters
 
 # Example 1
 
-| Patient ID | Sex    | Date of birth     |
-|------------|--------|-------------------|
-| 1          | M      | 01-01-2013        |
-| 2          | f      | 04-18-1998        |
-| 3          | Male   | 1st of April 2004 |
-| 4          | Female | NA                |
-| 5          | F      | 2010/03/12        |
-| 6          | F      |                   |
-| 7          | M      | 10012012          |
+| Patient ID | Sex    | Date of birth     | Tumour Size
+|------------|--------|-------------------|------------
+| 1          | M      | 01-01-2013        |     3.1
+| 2          | f      | 04-18-1998        |     1.5
+| 3          | Male   | 1st of April 2004 |     105
+| 4          | Female | NA                |     67
+| 5          | F      | 2010/03/12        |     4.2
+| 6          | F      |                   |     3.6
+| 7          | M      | 10012012          |     232
 
 ---
 
@@ -134,6 +122,8 @@ Addition unwanted characters
 - Consistency: F, female, f, fem, 2, …
 - Single common format for all dates: YYYYMMDD, YYYY-MM-DD
     + http://www.iso.org/iso/home/standards/iso8601.htm
+- Units
+    + cm or mm / km or miles etc
 - You can introduce inconsistencies without realising it
     + blank spaces (whitespace) at the end of text
     + "Male " is not the same as "Male"
