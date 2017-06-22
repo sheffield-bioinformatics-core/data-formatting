@@ -146,6 +146,10 @@
 
 # Rule 3
 
+Figure showing locations of visitors to my Prostate Cancer app
+
+- There is a suspicious data point to the East of Africa
+
 ![](images/zeros-are-data.png)
 
 ---
