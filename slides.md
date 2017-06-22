@@ -157,8 +157,7 @@ Figure showing locations of visitors to my Prostate Cancer [data portal](http://
 # Rule 3 - Don't use 0 to mean missing
 
 - Zero values are data!
-    + Sometimes extreme values such as 999 are sometimes used, which are obviously data too
-    + What if we wanted to calculate the average?
+    + Sometimes extreme values such as 999 are sometimes used
 - `NA` is Ok, but what if NA is a valid category in your data?
     + R will recognise `NA` as a missing value and can ignore it in calculations
     + you can define what text is used to represent missing (NULL, None,"-")
@@ -222,13 +221,6 @@ Figure showing locations of visitors to my Prostate Cancer [data portal](http://
 ## Make it rectangle
 
 - The computer expects a very rigid shape of data with rows and columns
-
----
-
-
-# Example 3 Corrected
-
-![](images/irregular.png)
 
 ---
 
