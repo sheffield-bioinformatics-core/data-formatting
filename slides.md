@@ -123,11 +123,13 @@
 - Single common format for all dates: YYYYMMDD, YYYY-MM-DD
     + http://www.iso.org/iso/home/standards/iso8601.htm
 - Units
-    + cm or mm / km or miles etc
+    + cm or mm
+    + days, months or years
 - You can introduce inconsistencies without realising it
     + blank spaces (whitespace) at the end of text
     + "Male " is not the same as "Male"
-    
+- Document choices you make about units in a *README* file
+
 ---
 
 # Example 1 - corrected
@@ -146,9 +148,7 @@
 
 # Rule 3
 
-Figure showing locations of visitors to my Prostate Cancer app
-
-- There is a suspicious data point to the East of Africa
+Figure showing locations of visitors to my Prostate Cancer [data portal](http://bioinformatics.cruk.cam.ac.uk/apps/camcAPP/)
 
 ![](images/zeros-are-data.png)
 
@@ -157,7 +157,7 @@ Figure showing locations of visitors to my Prostate Cancer app
 # Rule 3 - Don't use 0 to mean missing
 
 - Zero values are data!
-    + Sometimes extreme values such as 999 are used, which are obviously data too
+    + Sometimes extreme values such as 999 are sometimes used, which are obviously data too
     + What if we wanted to calculate the average?
 - `NA` is Ok, but what if NA is a valid category in your data?
     + R will recognise `NA` as a missing value and can ignore it in calculations
