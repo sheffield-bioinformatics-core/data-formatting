@@ -132,26 +132,16 @@
 
 # Example 1 - corrected
 
-| Patient ID | Sex  | Date of birth |
-|------------|------|---------------|
-| 1          | M    | 2013-01-01    |
-| 2          | F    | 1998-04-18    |
-| 3          | M    | 2004-04-01    |
-| 4          | F    | NA            |
-| 5          | F    | 2010-03-12    |
-| 6          | F    | NA            |
-| 7          | M    | 2012-01-10    |
+| Patient ID | Sex  | Date of birth | Tumour Size
+|------------|------|---------------|------------
+| 1          | M    | 2013-01-01    |   3.1 
+| 2          | F    | 1998-04-18    |   1.5
+| 3          | M    | 2004-04-01    |   1.05
+| 4          | F    | NA            |   0.67
+| 5          | F    | 2010-03-12    |   4.2
+| 6          | F    | NA            |   3.6
+| 7          | M    | 2012-01-10    |   2.32
 
----
-
-# A bit more about consistency
-
-- Realistic and easy to understand
-    + Variable names
-    + File names
-- Unique and consistent variable names
-    + Multiple tables
-    
 ---
 
 # Rule 3
@@ -165,7 +155,7 @@
 - Zero values are data!
     + Sometimes extreme values such as 999 are used, which are obviously data too
     + What if we wanted to calculate the average?
-- `NA` is Ok, but what is NA is a valid category in your data?
+- `NA` is Ok, but what if NA is a valid category in your data?
     + R will recognise `NA` as a missing value and can ignore it in calculations
     + you can define what text is used to represent missing (NULL, None,"-")
 - Safest to leave the cell *empty*
@@ -221,11 +211,7 @@
 
 ---
 
-# Rule 5
 
-![](images/irregular.png)
-
----
 
 # Rule 5
 
@@ -265,14 +251,15 @@ Computer doesn’t recognize it!
 
 ---
 
-# Good versus Bad Names
+# Make your data rectangular
 
-| Good Name | Alternative Name | Bad Name                |
-|-----------|------------------|-------------------------|
-| MaxTemp   | max_temp         | Maximum Temperature (C) |
-| Quantity  | Quantity_mg      | Quamg                   |
-| Sex       |                  | M/F                     |
-| Weight    | Weight_kg        | w                       |
+![](images/irregular.png)
+
+---
+
+# Rule 5
+
+![](images/regular.png)
 
 ---
 
@@ -324,11 +311,13 @@ Windows
 
 ---
 
-# How to save
+# Practice
 
-- Plain text format is preferable
-- Tab delimited
-    + , or ; separated
-- Such as .csv or .txt
+- Look at the file `patient-data.txt`
+    + a simulated, but representative, example of ***bad data***
+    + discuss with your neighbours
+- The next step is to look at how to clean the data with Open Refine
+
+---
 
 ---
