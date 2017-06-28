@@ -1,6 +1,8 @@
 # Data Formatting Issues
-## Avoiding data disasters - Best practices in Research Data Management for the Biological Sciences
-## July 12th 2017
+
+### Avoiding data disasters - Best practices in Research Data Management for the Biological Sciences
+### July 12th 2017
+
 ---
 
 
@@ -225,6 +227,18 @@ Figure showing locations of visitors to my Prostate Cancer [data portal](http://
 
 ---
 
+# Rule 5
+
+![](images/irregular.png)
+
+---
+
+# Rule 5
+
+![](images/regular.png)
+
+---
+
 # More
 
 - Don’t put too much information in one cell
@@ -248,17 +262,6 @@ Computer doesn’t recognize it!
 
 ---
 
-# Make your data rectangular
-
-![](images/irregular.png)
-
----
-
-# Rule 5
-
-![](images/regular.png)
-
----
 
 # Write Protection
 
