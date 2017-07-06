@@ -40,15 +40,8 @@
     + which set of samples was used....the one with that dodgy sample removed
     + didn't you change the version of the software and re-run it?
 - Need complete control over the files and data associated with your project
-
----
-
-# Barriers to learning R, Python etc
-
-- From experience, the biggest hurdle that newbies face is trying to read and analyse your own data
-- Often not because you have not understood the course materials....
-- ....but because the data have been managled into a form that the computer cannot process. 
-- there's a danger of becoming de-motivated and resorting back to whatever software you were using before.
+- R cannot magically read any type of file
+    + it expects things in a certain way
 
 ---
 
@@ -69,30 +62,16 @@
 [http://www.inquisitr.com/309687/jesus-painting-restoration-goes-wrong-well-intentioned-old-lady-destroys-100-year-old-fresco/](http://www.inquisitr.com/309687/jesus-painting-restoration-goes-wrong-well-intentioned-old-lady-destroys-100-year-old-fresco/)
 
 ---
-
-
-# Rule 1
-
-- Always, always **RAW** data
-- NOT 
-    + processed, 
-    + filtered 
-    + manipulated 
-    + either electronically or manually
+# Rule 1 - ***Never work directly on the raw data***
 
 ---
 
-# Rule 1 - Why?
+# Rule 1
 
-- Reduce human errors
-    + Copy / Paste / Cut
-    + Deletion
-- Reduce machine errors
-    + Cell formats
-    + Save file with a different extension
-- Ask your Bioinformatician / Statistician what form they would like the data in
-    + response will probably as "raw" as possible
-    + i.e. before it has been touched by human hand
+- ***Never work directly on the raw data***
+- Hard to reverse all the manual steps performed and invites errors
+- Store the data somewhere safe
+    + see later
     
 ---
 
@@ -126,8 +105,7 @@
 - Single common format for all dates: YYYYMMDD, YYYY-MM-DD
     + http://www.iso.org/iso/home/standards/iso8601.htm
 - Units
-    + cm or mm
-    + days, months or years
+    + cm or mm; days, months or years
 - You can introduce inconsistencies without realising it
     + blank spaces (whitespace) at the end of text
     + "Male " is not the same as "Male"
@@ -163,7 +141,6 @@ Figure showing locations of visitors to my Prostate Cancer [data portal](http://
     + Sometimes extreme values such as 999 are sometimes used
 - `NA` is Ok, but what if NA is a valid category in your data?
     + R will recognise `NA` as a missing value and can ignore it in calculations
-    + you can define what text is used to represent missing (NULL, None,"-")
 - Safest to leave the cell *empty*
     + but you need to be careful with blank spaces
 
@@ -247,9 +224,7 @@ Figure showing locations of visitors to my Prostate Cancer [data portal](http://
     + http://unitsofmeasure.org/ucum.html 
 - Write notes in a separate column or data dictionary or metadata 
     + "0 (below threshold)"
-- Avoid using "," or ";" or tab
-- Do not manually modify or copy values
-
+    
 ---
 
 # More
@@ -287,7 +262,7 @@ Windows
 
 ---
 
-# Data Validation
+# Heplful Data Validation feature in Excel
 
 - Excel data validation feature
 - Select a column
@@ -300,7 +275,7 @@ Windows
 
 ---
 
-# "Helpful" features in Excel
+# Less helpful features in Excel
 
 - When identifiers are long integers
     + 1000000 = 1e06
@@ -315,9 +290,7 @@ Windows
 
 - Look at the file `patient-data.txt`
     + a simulated, but representative, example of ***bad data***
-    + discuss with your neighbours
-- The next step is to look at how to clean the data with Open Refine
-
----
+    + discuss with your neighbours (5 minutes)
+- The next step is to look at how to clean the data with *Open Refine*
 
 ---
