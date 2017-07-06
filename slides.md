@@ -36,12 +36,8 @@
 # But tools like R have been around for years; why is this still an issue?
 
 - R is only part of the solution
-- Say you use an R script to generate a list of interesting genes and come to publish
-    + which set of samples was used....the one with that dodgy sample removed
-    + didn't you change the version of the software and re-run it?
 - Need complete control over the files and data associated with your project
-- R cannot magically read any type of file
-    + it expects things in a certain way
+- R cannot read any file as if by magic
 
 ---
 
