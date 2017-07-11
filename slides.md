@@ -33,20 +33,13 @@
 
 ---
 
-# But tools like R have been around for years; why is this still an issue?
-
-- R is only part of the solution
-- Need complete control over the files and data associated with your project
-- R cannot read any file as if by magic
-
----
-
 # Are spreadsheets programs like Excel evil?
 
 - ....Not neccesarily.
 - Often much more convenient to eye-ball a spreadsheet and get an overall impression of your data. 
 - But they have *limitations* making them not ideal for large-scale analyses. 
 - Doing things by-hand only invites you to make copy-and-paste errors etc
+- R cannot read all files as if by magic
 
 ---
 
@@ -66,7 +59,7 @@
 
 - ***Never work directly on the raw data***
 - Hard to reverse all the manual steps performed and invites errors
-- Store the data somewhere safe
+- Store the original data somewhere safe
     + see later
     
 ---
@@ -83,7 +76,7 @@
 
 # Example 1
 
-| Patient ID | Sex    | Date of birth     | Tumour Size
+| Patient ID | Sex    | Date of Diagnosis     | Tumour Size
 |------------|--------|-------------------|------------
 | 1          | M      | 01-01-2013        |     3.1
 | 2          | f      | 04-18-1998        |     1.5
@@ -111,7 +104,7 @@
 
 # Example 1 - corrected
 
-| Patient ID | Sex  | Date of birth | Tumour Size
+| Patient ID | Sex  | Date of Diagnosis | Tumour Size
 |------------|------|---------------|------------
 | 1          | M    | 2013-01-01    |   3.1 
 | 2          | F    | 1998-04-18    |   1.5
@@ -168,10 +161,10 @@ Figure showing locations of visitors to my Prostate Cancer [data portal](http://
 
 - It is tempting to make the table look cleaner by not repeating some values
 - Fill in all cells!
-    + Problems when sorting
+    + otherwise, problems when sorting
 - Empty cell:
-    + Missing value?
-    + Value meant to be repeated multiple times?
+    + missing value?
+    + value meant to be repeated multiple times?
 - Make sure it’s clear that the data is missing and not unintentionally left blank
 
 ---
@@ -197,6 +190,9 @@ Figure showing locations of visitors to my Prostate Cancer [data portal](http://
 ## Make it rectangle
 
 - The computer expects a very rigid shape of data with rows and columns
+- Each column is a *variable* being examined
+- Each row is an observation
+- A concept commonly known as *tidy data*
 
 ---
 
@@ -284,9 +280,9 @@ Windows
 
 # Practice
 
-- Look at the file `patient-data.txt`
+- Look at the file [`patient-data.txt`](patient-data.txt)
     + a simulated, but representative, example of ***bad data***
-    + discuss with your neighbours (5 minutes)
+    + discuss with your neighbours (around 5 minutes)
 - The next step is to look at how to clean the data with *Open Refine*
 
 ---
