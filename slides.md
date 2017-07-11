@@ -100,7 +100,7 @@
 
 ---
 
-# About dates
+# Regarding dates
 
 credit: @myusuf3
 
