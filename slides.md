@@ -91,8 +91,6 @@
 # Example 1
 
 - Consistency: F, female, f, fem, 2, …
-- Single common format for all dates: YYYYMMDD, YYYY-MM-DD
-    + http://www.iso.org/iso/home/standards/iso8601.htm
 - Units
     + cm or mm; days, months or years
 - You can introduce inconsistencies without realising it
@@ -102,17 +100,25 @@
 
 ---
 
+# About dates
+
+![](images/dates.jpg)
+
+@myusuf3
+
+---
+
 # Example 1 - corrected
 
 | Patient ID | Sex  | Date of Diagnosis | Tumour Size
 |------------|------|---------------|------------
-| 1          | M    | 2013-01-01    |   3.1 
-| 2          | F    | 1998-04-18    |   1.5
-| 3          | M    | 2004-04-01    |   1.05
-| 4          | F    | NA            |   0.67
-| 5          | F    | 2010-03-12    |   4.2
-| 6          | F    | NA            |   3.6
-| 7          | M    | 2012-01-10    |   2.32
+| 001          | M    | 2013-01-01    |   3.1 
+| 002          | F    | 1998-04-18    |   1.5
+| 003          | M    | 2004-04-01    |   1.05
+| 004          | F    | NA            |   0.67
+| 005          | F    | 2010-03-12    |   4.2
+| 006          | F    | NA            |   3.6
+| 007          | M    | 2012-01-10    |   2.32
 
 ---
 
