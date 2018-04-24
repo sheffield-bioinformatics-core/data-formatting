@@ -7,9 +7,11 @@
 
 # Reproducible Research
 
+- Cartoon by Sidney Harris (The New Yorker)
+
 ![](images/SidneyHarris_MiracleWeb.jpg)
 
-Cartoon by Sidney Harris (The New Yorker)
+
 
 
 # Reproducible Research
