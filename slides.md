@@ -12,6 +12,8 @@
 
 Cartoon by Sidney Harris (The New Yorker)
 
+---
+
 # Reproducible Research
 
 - At some point in the future, someone, somewhere, might want to repeat your analysis for themselves or re-use your data. 
