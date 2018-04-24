@@ -25,10 +25,9 @@ Cartoon by Sidney Harris (The New Yorker)
 
 # Five selfish reasons
 
-- Florian Markowetz has a great talk on why we should work reproducibly 
-- There is a [Genome Biology paper](http://genomebiology.biomedcentral.com/articles/10.1186/s13059-015-0850-7) that you should read.
+<iframe width="560" height="315" src="https://www.youtube.com/embed/Is15CMVPHas" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
 
-![](images/selfish-reasons.png)
+- There is a [Genome Biology paper](http://genomebiology.biomedcentral.com/articles/10.1186/s13059-015-0850-7) that you should read.
 
 ---
 
