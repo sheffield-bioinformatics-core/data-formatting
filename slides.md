@@ -1,7 +1,7 @@
 # Data Formatting Issues
 
-### Avoiding data disasters - Best practices in Research Data Management for the Biological Sciences
-### July 12th 2017
+### Best practices in Research Data Management for the Biological Sciences
+### April 30th 2018
 
 ---
 
@@ -286,7 +286,7 @@ Windows
 
 # Practice
 
-- Look at the file [`patient-data.txt`](patient-data.txt)
+- Look at the file [`patient-data.txt`](https://raw.githubusercontent.com/datachampcam/refine-demo/master/patient-data.txt)
     + a simulated, but representative, example of ***bad data***
     + discuss with your neighbours (around 5 minutes)
 - The next step is to look at how to clean the data with *Open Refine*
