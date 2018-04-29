@@ -14,15 +14,6 @@ Cartoon by Sidney Harris (The New Yorker)
 
 ---
 
-# Reproducible Research
-
-- At some point in the future, someone, somewhere, might want to repeat your analysis for themselves or re-use your data. 
-    + which will most likely be ***you!***
-- Assuming that you'll be able to remember all the steps involved is dangerous, so making sure that everything is well-documented is key. 
-- The documentation involves not only the methods used, but the files used as input and any transformations performed on them. 
-
----
-
 # Five selfish reasons
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/Is15CMVPHas" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
@@ -40,13 +31,24 @@ Cartoon by Sidney Harris (The New Yorker)
 
 ---
 
-# Are spreadsheets programs like Excel evil?
+# Reproducible Research
+
+- At some point in the future, someone, somewhere, might want to repeat your analysis for themselves or re-use your data. 
+    + which will most likely be ***you!***
+- Assuming that you'll be able to remember all the steps involved is dangerous, so making sure that everything is well-documented is key. 
+- An analysis needs to be *automated* to be properly reproducible
+- Tools like R, Python, will help with this but the data needs to be formatted correctly in the first place
+    + R, Python cannot magically read any type of file you give them
+- **Making spreadsheets tidy at the start of the analysis will save a lot of time in the long-run**
+
+---
+
+# Should we stop using Excel completely?
 
 - ....Not neccesarily.
 - Often much more convenient to eye-ball a spreadsheet and get an overall impression of your data. 
 - But they have *limitations* making them not ideal for large-scale analyses. 
 - Doing things by-hand only invites you to make copy-and-paste errors etc
-- R cannot read all files as if by magic
 
 ---
 
