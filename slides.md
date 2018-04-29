@@ -191,7 +191,7 @@ Figure showing locations of visitors to my Prostate Cancer [data portal](http://
 | 3          | 2015-06-18 | 32    |
 | 4          | 2015-06-18 | 120.3 |
 | 5          | 2015-06-18 | 109   |
-| 6          | 2015-06-20 |       |
+| 6          | 2015-06-20 | NA    |
 | 7          | 2015-06-20 | 143   |
 
 ---
@@ -293,9 +293,9 @@ Windows
 
 # Practice
 
-- Look at the file [`patient-data.txt`](https://raw.githubusercontent.com/datachampcam/refine-demo/master/patient-data.txt)
-    + a simulated, but representative, example of ***bad data***
-    + discuss with your neighbours (around 5 minutes)
+- Download the file [`patient-data.txt`](https://raw.githubusercontent.com/datachampcam/refine-demo/master/patient-data.txt) and open in Excel, or equivalent software
+    + this is a simulated, but representative, example of ***bad data***
+    + discuss with your neighbours what aspects of the dataset would make it difficult for a computer to process (around 5 minutes)
 - The next step is to look at how to clean the data with *Open Refine*
 
 ---
