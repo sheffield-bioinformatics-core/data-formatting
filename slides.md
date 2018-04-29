@@ -196,6 +196,11 @@ Figure showing locations of visitors to my Prostate Cancer [data portal](http://
 ---
 
 
+# Rule 5
+
+![](images/irregular.png)
+
+---
 
 # Rule 5
 
@@ -205,12 +210,6 @@ Figure showing locations of visitors to my Prostate Cancer [data portal](http://
 - Each column is a *variable* being examined
 - Each row is an observation
 - A concept commonly known as [*tidy data*](http://vita.had.co.nz/papers/tidy-data.pdf)
-
----
-
-# Rule 5
-
-![](images/irregular.png)
 
 ---
 
