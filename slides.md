@@ -36,6 +36,12 @@ Cartoon by Sidney Harris (The New Yorker)
 - At some point in the future, someone, somewhere, might want to repeat your analysis for themselves or re-use your data. 
     + which will most likely be ***you!***
 - Assuming that you'll be able to remember all the steps involved is dangerous, so making sure that everything is well-documented is key. 
+
+---
+
+
+# Reproducible Research
+
 - An analysis needs to be *automated* to be properly reproducible
 - Tools like R, Python, will help with this but the data needs to be formatted correctly in the first place
     + R, Python cannot magically read any type of file you give them
