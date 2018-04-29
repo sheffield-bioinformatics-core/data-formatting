@@ -204,7 +204,7 @@ Figure showing locations of visitors to my Prostate Cancer [data portal](http://
 - The computer expects a very rigid shape of data with rows and columns
 - Each column is a *variable* being examined
 - Each row is an observation
-- A concept commonly known as *tidy data*
+- A concept commonly known as [*tidy data*](http://vita.had.co.nz/papers/tidy-data.pdf)
 
 ---
 
