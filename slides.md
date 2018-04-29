@@ -22,15 +22,6 @@ Cartoon by Sidney Harris (The New Yorker)
 
 ---
 
-# A famous example
-- Probably the most (in)famous example of failure to reproduce a study, which actually *put people's lives at risk* and [rallied statisticians into action](http://www.nytimes.com/2011/07/08/health/research/08genes.html)
-- Keith Baggerly's lecture on the scandal is a ***must-see***.
-
-<iframe width="560" height="315" src="https://www.youtube.com/embed/7gYIs7uYbMo" frameborder="0" allowfullscreen></iframe>
-
-
----
-
 # Reproducible Research
 
 - At some point in the future, someone, somewhere, might want to repeat your analysis for themselves or re-use your data. 
