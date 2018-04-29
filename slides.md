@@ -301,7 +301,7 @@ Windows
 
 # Practice
 
-- Download the file [`patient-data.txt`](https://raw.githubusercontent.com/datachampcam/refine-demo/master/patient-data.txt) and open in Excel, or equivalent software
+- Download the file [`patient-data.csv`](https://raw.githubusercontent.com/datachampcam/refine-demo/master/patient-data.csv) and open in Excel, or equivalent software
     + this is a simulated, but representative, example of ***bad data***
     + discuss with your neighbours what aspects of the dataset would make it difficult for a computer to process (around 5 minutes)
 - The next step is to look at how to clean the data with *Open Refine*
