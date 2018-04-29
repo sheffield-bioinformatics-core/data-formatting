@@ -1,8 +1,9 @@
 # Data Formatting Issues
 
 ### Best practices in Research Data Management for the Biological Sciences
+### Mark Dunning - Sheffield Bioinformatics Core
 ### April 30th 2018
-
+## sbc.shef.ac.uk
 ---
 
 # Reproducible Research
