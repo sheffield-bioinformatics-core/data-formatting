@@ -52,9 +52,9 @@ Cartoon by Sidney Harris (The New Yorker)
 
 # Rule 1
 
-![](http://cdn.inquisitr.com/wp-content/uploads/2012/08/jesus-christ-fresco.gif)
+![](https://news.artnet.com/app/news-upload/2014/04/Ecce-Homo.jpg)
 
-[http://www.inquisitr.com/309687/jesus-painting-restoration-goes-wrong-well-intentioned-old-lady-destroys-100-year-old-fresco/](http://www.inquisitr.com/309687/jesus-painting-restoration-goes-wrong-well-intentioned-old-lady-destroys-100-year-old-fresco/)
+[https://news.artnet.com/art-world/botched-restoration-of-jesus-fresco-miraculously-saves-spanish-town-197057](https://news.artnet.com/art-world/botched-restoration-of-jesus-fresco-miraculously-saves-spanish-town-197057
 
 ---
 # Rule 1 - ***Never work directly on the raw data***
