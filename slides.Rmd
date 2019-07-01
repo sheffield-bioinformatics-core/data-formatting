@@ -9,7 +9,30 @@ output: ioslides_presentation
 knitr::opts_chunk$set(echo = FALSE)
 ```
  
-## Reproducible Research
+## Context
+
+![](images/metabric.png)
+ 
+## Context 
+ 
+- What the wet-lab scientists wanted us to spend time looking at
+
+<img src="images/metabric-clusters.png" style="width: 80%; display: block; margin-left: auto; margin-right: auto;"/>
+
+## Context
+
+- What we *actually* spent time looking at (Disclaimer: not actual data from this project)
+
+<img src="images/oh-the-horror.png" style="width: 100%; display: block; margin-left: auto; margin-right: auto;"/>
+
+## Context
+
+No matter how much of the analysis is automated, some manual steps are inevitably involved
+
+<img src="images/metadata.png" style="width: 75%; display: block; margin-left: auto; margin-right: auto;"/>
+
+
+## Why does it matter?
 
 
 ![](images/SidneyHarris_MiracleWeb.jpg)
@@ -17,12 +40,14 @@ knitr::opts_chunk$set(echo = FALSE)
 Cartoon by Sidney Harris (The New Yorker)
 
 
-
-## Five selfish reasons
+## Recommended Viewing 1
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/Is15CMVPHas" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
 
-- There is a [Genome Biology paper](http://genomebiology.biomedcentral.com/articles/10.1186/s13059-015-0850-7) that you should read.
+## Recommended Viewing 2
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/e-7Pfi_bGaE" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
 
 
 
@@ -291,7 +316,7 @@ Windows
 
 ## Practice
 
-- Download the file [`patient-data.csv`](patient-data.csv) and open in Excel, or equivalent software
+- Download the file `patient-data.xlsx` and open in Excel, or equivalent software
     + this is a simulated, but representative, example of ***bad data***
     + discuss with your neighbours what aspects of the dataset would make it difficult for a computer to process (around 5 minutes)
 - The next step is to look at how to clean the data with *Open Refine*
